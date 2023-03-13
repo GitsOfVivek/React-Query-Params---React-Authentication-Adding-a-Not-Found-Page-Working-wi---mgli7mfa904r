@@ -11,7 +11,7 @@ const Details = () => {
 	const [searchParams] = useSearchParams();
 	return (
 		<div className="details">
-			Employee {searchParams.get('id')} named {searchParams.get('name')}
+			Employee {searchParams.get('id')} named {searchParams.get('name')}{' '}
 			works as {searchParams.get('designation')}
 		</div>
 	);
